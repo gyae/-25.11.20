@@ -1,0 +1,10 @@
+print ('Введите число A:')
+A = int(input())
+print ('Введите число B:')
+B = int(input())
+if A<B:
+  for i in range(A,B+1):
+   print (i)
+elif A>B:
+  for i in range (A,B-1,-1):
+    print (i)
